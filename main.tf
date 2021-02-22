@@ -1,8 +1,4 @@
-provider "aws" {
-  access_key = "AKIAI45FIG7PIGTB44CA"
-  secret_key = "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"
-  region     = "ap-south-1"
-}
+
 resource "aws_vpc" "Ent-NonPrd-AP" {
   cidr_block       = "10.30.64.0/20"
   enable_dns_hostnames = true
