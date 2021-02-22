@@ -1,4 +1,3 @@
-
 resource "aws_vpc" "Ent-NonPrd-AP" {
   cidr_block       = "10.30.64.0/20"
   enable_dns_hostnames = true
